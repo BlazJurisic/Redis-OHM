@@ -35,7 +35,7 @@ function _(hmsetId, object) {
 
 function __(hmSetId, includeChildren) {
     client.hgetAll(hmSetId, (err, reply) => {
-        if (err) console.log(err) //handle err
+        err && console.log(err) //handle err
         const keys = Object.keys(reply)
         const ___ = keys.map(key => (
             reply[key].includes(`${hmSetId}.`)

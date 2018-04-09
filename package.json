@@ -1,0 +1,20 @@
+{
+  "name": "redis-ohm",
+  "version": "0.0.1",
+  "description": "Redis object-hash mapping. Part of SilverCord architecture. Recursive algorithm iterates trough object properties and map them into hashmap.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "redis",
+    "redis-ohm",
+    "ohm",
+    "redis-orm",
+    "orm",
+    "javascript",
+    "js"
+  ],
+  "author": "BlazJurisic",
+  "license": "MIT"
+}

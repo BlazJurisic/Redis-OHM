@@ -39,7 +39,7 @@ function __(hmSetId, includeChildren) {
         const keys = Object.keys(reply)
         const ___ = keys.map(key => (
             reply[key].includes(`${hmSetId}.`)
-                ? __(index, includeChildren)
+                ? __(key, includeChildren)
                 : reply[key]
         ))
     })
